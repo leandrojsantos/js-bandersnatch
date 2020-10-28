@@ -1,0 +1,15 @@
+{
+  "name": "aula02-bandersnatch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "assets": "npx http-server --cors -p 8081 assets/",
+    "dev": "npx http-server --cors -p 8080 public/"
+  },
+  "keywords": [],
+  "author": "leandrojsantos",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}

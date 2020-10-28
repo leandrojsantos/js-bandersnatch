@@ -16,12 +16,11 @@ Tabela de conteúdos
    * [Sobre o projeto](#-sobre-o-projeto)
    * [Funcionalidades](#-funcionalidades)
    * [Layout](#-layout)
-     * [Mobile](#mobile)
      * [Web](#web)
    * [Como executar o projeto](#-como-executar-o-projeto)
      * [Pré-requisitos](#pré-requisitos)
-     * [Rodando o Backend (servidor)](#user-content--rodando-o-backend-servidor)
-     * [Rodando a aplicação web (Frontend)](#user-content--rodando-a-aplicação-web-frontend)
+     * [Rodando o Backend](#user-content--rodando-o-backend-servidor)
+     * [Rodando a aplicação web](#user-content--rodando-a-aplicação-web-frontend)
    * [Tecnologias](#-tecnologias)
    
 <!--te-->
@@ -29,13 +28,22 @@ Tabela de conteúdos
 
 ## 💻 Sobre o projeto
 
-Projeto desenvolvido durante....
+Projeto desenvolvido durante a semana [js-expert](https://javascriptexpert.com.br/) do [Erick Wendel](https://cursos.erickwendel.com.br/), com o proposta de recriar a tecnologia usada no [bandersnatch](https://pt.wikipedia.org/wiki/Black_Mirror:_Bandersnatch) da netflix com node e javascript
 
 ---
 
 ## ⚙️ Funcionalidades
 
-- [x]....
+- [x] Entender como a Netflix desenvolveu o filme Black Mirror: Bandersnatch.
+- [x] Como criar um player de vídeo moderno e customizado usando video.js com base no Layout da Netflix.
+- [x] Como ler pedaços de vídeo sob demanda de acordo com a escolha do usuário.
+- [x] Como usar codecs compatíveis com a maioria dos browsers.
+- [x] Como funciona um arquivo MP4, entendendo durações e resoluções.
+- [x] Como conceitos e práticas avançadas sobre a linguagem Javascript.
+- [x] Como armazenar vídeos de forma inteligente com Content Delivery Networks (CDNs).
+- [x] Vai conhecer as APIs do browser para manipulação de vídeo como Media Source.
+- [x] Vai conhecer as principais limitações do Browser para streaming de video adaptativo.
+- [x] Vai entender como é a troca de informações entre cliente e servidor para entrega de arquivos pesados.
 
 ---
 
@@ -64,7 +72,7 @@ Este projeto é divido em 2 partes:
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+[Git](https://git-scm.com), [Node ver:^10](https://nodejs.org/en/), [FFMPEG & FFProbe](https://ffmpeg.org/ffmpeg.html), [MP4Box](https://github.com/gpac/gpac/wiki/MP4Box)
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
 #### 🎲 Rodando o Backend (servidor)
@@ -120,4 +128,15 @@ $ npm run start
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-**Server**  ([NodeJS](https://nodejs.org/en/)  +  [TypeScript](https://www.typescriptlang.org/))
+* [Node.js](https://nodejs.org/)
+* [FFMPEG & FFProbe](https://ffmpeg.org/ffmpeg.html)
+* [MP4Box](https://github.com/gpac/gpac/wiki/MP4Box)
+
+✅  LINKS
+
+* Netflix JavaScript Talks - Making Bandersnatch: http://bit.ly/netflix-bandersnatch-talk
+* Netflix Open Connect: https://openconnect.netflix.com/
+* Youtube Streaming best practices: https://support.google.com/youtube/an...
+* Browser Codec Compatibility: https://gist.github.com/Vestride/278e...
+* W3C Media Source Extensions™: https://www.w3.org/TR/media-source/
+* Media Source Compatibility: https://caniuse.com/mediasource
