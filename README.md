@@ -7,7 +7,7 @@
 
 
 <h4 align="center">
-	🚧   Em produção 🚀 🚧
+	🚧   Concluído🚀 🚧
 </h4>
 
 Tabela de conteúdos
@@ -19,8 +19,7 @@ Tabela de conteúdos
      * [Web](#web)
    * [Como executar o projeto](#-como-executar-o-projeto)
      * [Pré-requisitos](#pré-requisitos)
-     * [Rodando o Backend](#user-content--rodando-o-backend-servidor)
-     * [Rodando a aplicação web](#user-content--rodando-a-aplicação-web-frontend)
+     * [Rodando o Projeto](#user-content--rodando-o-projeto)
    * [Tecnologias](#-tecnologias)
    
 <!--te-->
@@ -51,23 +50,18 @@ Projeto desenvolvido durante a semana [js-expert](https://javascriptexpert.com.b
 
 O layout da aplicação:
 
-### Web
-
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="node-serverless" title="#node-serverless" src="./assets/web.svg" width="400px">
-
-  <img alt="node-serverless" title="#node-serverless" src="./assets/sucesso-web.svg" width="400px">
+  <img alt="js-bandersnatch" title="#js-bandersnatch" src="./aula03/assets/prints/titulos.png" width="400px">
 </p>
 
+##### Créditos
+
+- Layout da lista foi baseada no  codepen do [Carlos Avila
+](https://codepen.io/cb2307/pen/XYxyeY)
+- Layout do video foi baseado no codepen do [Benjamin Pott](https://codepen.io/benjipott/pen/JELELN)
 ---
 
 ## 🚀 Como executar o projeto
-
-Este projeto é divido em 2 partes:
-1. Backend  
-2. Frontend 
-
-💡Tanto o Frontend quanto o Mobile precisam que o Backend esteja sendo executado para funcionar.
 
 ### Pré-requisitos
 
@@ -75,53 +69,30 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node ver:^10](https://nodejs.org/en/), [FFMPEG & FFProbe](https://ffmpeg.org/ffmpeg.html), [MP4Box](https://github.com/gpac/gpac/wiki/MP4Box)
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-#### 🎲 Rodando o Backend (servidor)
+#### 🎲 Rodando o projeto
 
 ```bash
-
 # Clone este repositório
-$ git clone 
+$ git clone git@github.com:leandrojsantos/js-bandersnatch.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd 
+$ cd js-bandersnatch
 
 # Vá para a pasta server
-$ cd 
+$ cd js-bandersnatch/aula03
 
 # Instale as dependências
 $ npm install
 
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server
+# Execute um terminal
+$ npm run assets
 
-# O servidor inciará na porta:3333 - acesse http://localhost:3333 
+# Em outro terminal, execute a aplicação em modo de desenvolvimento
+$ npm run dev
 
-```
-
-
-#### 🧭 Rodando a aplicação web (Frontend)
-
-```bash
-
-# Clone este repositório
-$ git clone 
-
-# Acesse a pasta do projeto no seu terminal/cmd
-$ cd 
-
-# Vá para a pasta da aplicação Front End
-$ cd 
-
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run start
-
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+# O servidor inciará na porta:8081 - acesse http://localhost:8081
 
 ```
-
 ---
 
 ## 🛠 Tecnologias
@@ -140,3 +111,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 * Browser Codec Compatibility: https://gist.github.com/Vestride/278e...
 * W3C Media Source Extensions™: https://www.w3.org/TR/media-source/
 * Media Source Compatibility: https://caniuse.com/mediasource
+* MP4 Fragments: https://stackoverflow.com/questions/3...
+* Shaka Player: https://v1-6-2.shaka-player-demo.apps... 
+* Video Demo Shaka Player: https://www.youtube.com/watch?v=CPFE3...
+* Serverless components: https://www.serverless.com/components/
