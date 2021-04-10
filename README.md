@@ -84,11 +84,11 @@ $ cd js-bandersnatch/aula03
 # Instale as dependências
 $ npm install
 
-# Em um terminal, execute a aplicação em modo de desenvolvimento
-$ npm run dev
+# Caso tenha erros de dependências deprecated por exemplo, usar comando
+$ npm audit fix --force
 
-# Em outro terminal
-$ npm run assets
+# Para start projeto e use comando
+$ npm start
 
 # O servidor inciará na porta:8080
 # http://localhost:8080
