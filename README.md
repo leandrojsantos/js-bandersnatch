@@ -84,13 +84,14 @@ $ cd js-bandersnatch/aula03
 # Instale as dependências
 $ npm install
 
-# Execute um terminal
-$ npm run assets
-
-# Em outro terminal, execute a aplicação em modo de desenvolvimento
+# Em um terminal, execute a aplicação em modo de desenvolvimento
 $ npm run dev
 
-# O servidor inciará na porta:8081 - acesse http://localhost:8081
+# Em outro terminal
+$ npm run assets
+
+# O servidor inciará na porta:8080
+# http://localhost:8080
 
 ```
 ---
