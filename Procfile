@@ -1,1 +1,1 @@
-web: cd aula03 && npm run dev && npm run assets
+web: cd aula03  npm run dev && npm run assets
